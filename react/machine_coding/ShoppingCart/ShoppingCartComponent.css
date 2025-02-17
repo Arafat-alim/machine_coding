@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.product-container {
+  display: flex;
+  gap: 10px;
+}
+
+.product {
+  border: 2px solid black;
+  padding: 10px;
+}
