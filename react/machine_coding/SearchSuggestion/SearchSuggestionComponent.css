@@ -1,0 +1,26 @@
+input {
+  width: 500px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.search-container {
+  margin: 0;
+  width: 500px;
+  padding: 5px;
+  max-height: 500px;
+  border: 2px solid black;
+  list-style-type: none;
+  overflow-y: scroll;
+}
+
+.search-result {
+  padding: 3px;
+}
+
+.search-result:hover {
+  background-color: beige;
+  cursor: pointer;
+}
