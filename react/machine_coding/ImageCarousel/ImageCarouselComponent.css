@@ -1,0 +1,45 @@
+.carousel {
+  width: 800px;
+  border: 2px solid black;
+  margin: 30px auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-viewport {
+  width: 100%;
+}
+
+.carousel-image {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.carousel-image img {
+  width: 100%;
+  display: none;
+}
+
+.carousel-image img.active {
+  display: block;
+}
+
+.bulletin-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bulletin-navigation .dot {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: aqua;
+  margin: 10px;
+}
+
+.bulletin-navigation .dot.active {
+  background-color: red;
+}
